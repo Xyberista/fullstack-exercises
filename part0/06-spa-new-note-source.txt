@@ -1,0 +1,8 @@
+note over browser:
+event handler is called from spa.js to
+prevent a redirect, add the note to the list,
+and send a POST reques to the server
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: {"message":"note created"}
